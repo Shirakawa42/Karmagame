@@ -25,6 +25,9 @@ public class VoronoiDiagram : MonoBehaviour
 		return pixelColors;
 	}
 
+
+	
+
 	int GetClosestCentroidIndex(Vector2Int pixelPos, Vector2Int[] centroids)
 	{
 		float smallestDst = float.MaxValue;
